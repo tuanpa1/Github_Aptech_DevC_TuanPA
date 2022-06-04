@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = Task6_XetThi_XetDiemThi.o
-LINKOBJ  = Task6_XetThi_XetDiemThi.o
+OBJ      = Task6/Task6_XetThi_XetDiemThi.o
+LINKOBJ  = Task6/Task6_XetThi_XetDiemThi.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -24,5 +24,5 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-Task6_XetThi_XetDiemThi.o: Task6_XetThi_XetDiemThi.c
-	$(CC) -c Task6_XetThi_XetDiemThi.c -o Task6_XetThi_XetDiemThi.o $(CFLAGS)
+Task6/Task6_XetThi_XetDiemThi.o: Task6/Task6_XetThi_XetDiemThi.c
+	$(CC) -c Task6/Task6_XetThi_XetDiemThi.c -o Task6/Task6_XetThi_XetDiemThi.o $(CFLAGS)
