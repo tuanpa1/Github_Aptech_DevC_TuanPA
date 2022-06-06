@@ -1,15 +1,15 @@
-# Project: Project7
+# Project: Project20
 # Makefile created by Dev-C++ 5.11
 
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = ../2022_06_06/VD_typeConversion.o
-LINKOBJ  = ../2022_06_06/VD_typeConversion.o
+OBJ      = VD_typeConversion.o
+LINKOBJ  = VD_typeConversion.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
-BIN      = Project7.exe
+BIN      = Project20.exe
 CXXFLAGS = $(CXXINCS) 
 CFLAGS   = $(INCS) 
 RM       = rm.exe -f
@@ -24,5 +24,5 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-../2022_06_06/VD_typeConversion.o: ../2022_06_06/VD_typeConversion.c
-	$(CC) -c ../2022_06_06/VD_typeConversion.c -o ../2022_06_06/VD_typeConversion.o $(CFLAGS)
+VD_typeConversion.o: VD_typeConversion.c
+	$(CC) -c VD_typeConversion.c -o VD_typeConversion.o $(CFLAGS)
