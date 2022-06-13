@@ -1,15 +1,15 @@
-# Project: Project20
+# Project: Project1
 # Makefile created by Dev-C++ 5.11
 
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = VD_typeConversion.o
-LINKOBJ  = VD_typeConversion.o
+OBJ      = "../Task\ -\ Vong\ lap\ -\ mang/vd9.3\ -\ tong\ cho\ truoc\ in\ cac\ phep\ tinh\ tong.o"
+LINKOBJ  = "../Task - Vong lap - mang/vd9.3 - tong cho truoc in cac phep tinh tong.o"
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
-BIN      = Project20.exe
+BIN      = Project1.exe
 CXXFLAGS = $(CXXINCS) 
 CFLAGS   = $(INCS) 
 RM       = rm.exe -f
@@ -24,5 +24,5 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-VD_typeConversion.o: VD_typeConversion.c
-	$(CC) -c VD_typeConversion.c -o VD_typeConversion.o $(CFLAGS)
+"../Task\ -\ Vong\ lap\ -\ mang/vd9.3\ -\ tong\ cho\ truoc\ in\ cac\ phep\ tinh\ tong.o": ../Task\ -\ Vong\ lap\ -\ mang/vd9.3\ -\ tong\ cho\ truoc\ in\ cac\ phep\ tinh\ tong.c
+	$(CC) -c "../Task - Vong lap - mang/vd9.3 - tong cho truoc in cac phep tinh tong.c" -o "../Task - Vong lap - mang/vd9.3 - tong cho truoc in cac phep tinh tong.o" $(CFLAGS)
