@@ -1,15 +1,15 @@
-# Project: Project1
+# Project: Project7
 # Makefile created by Dev-C++ 5.11
 
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = "../Task\ -\ Vong\ lap\ -\ mang/in\ cac\ so\ chia\ het\ cho\ 7.o"
-LINKOBJ  = "../Task - Vong lap - mang/in cac so chia het cho 7.o"
+OBJ      = HaiLong_copy.o
+LINKOBJ  = HaiLong_copy.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
-BIN      = Project1.exe
+BIN      = Project7.exe
 CXXFLAGS = $(CXXINCS) 
 CFLAGS   = $(INCS) 
 RM       = rm.exe -f
@@ -24,5 +24,5 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-"../Task\ -\ Vong\ lap\ -\ mang/in\ cac\ so\ chia\ het\ cho\ 7.o": ../Task\ -\ Vong\ lap\ -\ mang/in\ cac\ so\ chia\ het\ cho\ 7.c
-	$(CC) -c "../Task - Vong lap - mang/in cac so chia het cho 7.c" -o "../Task - Vong lap - mang/in cac so chia het cho 7.o" $(CFLAGS)
+HaiLong_copy.o: HaiLong_copy.c
+	$(CC) -c HaiLong_copy.c -o HaiLong_copy.o $(CFLAGS)

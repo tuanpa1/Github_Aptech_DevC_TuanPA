@@ -1,6 +1,6 @@
 [Project]
-FileName=Project1.dev
-Name=Project1
+FileName=Project9.dev
+Name=Project9
 Type=1
 Ver=2
 ObjFiles=
@@ -50,18 +50,8 @@ ProductVersion=
 AutoIncBuildNr=0
 SyncProduct=1
 
-[Unit2]
-FileName=..\Task - Vong lap - mang\vd9.32.c
-CompileCpp=0
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
 [Unit1]
-FileName=..\Task - Vong lap - mang\in cac so chia het cho 7.c
+FileName=vd vong lap do while.c
 CompileCpp=0
 Folder=
 Compile=1
